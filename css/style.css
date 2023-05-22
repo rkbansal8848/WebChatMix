@@ -1,0 +1,122 @@
+.logo {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+
+}
+
+body {
+    background-image: linear-gradient(white, rgb(84, 208, 249));
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 254px;
+    border: 2px solid black;
+    background-color: #b8ebe6;
+}
+
+.topname {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav .user {
+
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 180px;
+    width: auto;
+    /* Remove the width property */
+    border-radius: 7px;
+    border: 2px solid black;
+    font-style: italic;
+    background-color: blueviolet;
+    color: azure;
+
+}
+
+.container {
+    background-image: url('../images/containerbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 800px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: auto;
+    height: 60vh;
+    padding: 15px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #80fff8;
+    width: 50%;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.right {
+    word-wrap: break-word;
+    float: right;
+    clear: both;
+}
+
+.left {
+    word-wrap: break-word;
+    float: left;
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+
+}
+
+#messageinp {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 36px;
+
+}
