@@ -22,7 +22,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const message = messageInput.value;
   append(`You: ${message}`, 'right');
-  socket.emit('send', { message, code: coden }); // Modify the code to '112' or any desired value
+  socket.emit('send', { message, code: coden });
   messageInput.value = '';
 });
 
@@ -30,7 +30,7 @@ form.addEventListener('submit', (e) => {
 socket.on('connect', () => {
   nameshow[0].innerText = "User: " + userName;
   
-  socket.emit('new-user-joined', { name: userName, code: coden }); // Modify the code to '112' or any desired value
+  socket.emit('new-user-joined', { name: userName, code: coden });
 });
 
 socket.on('user-joined', name => {
